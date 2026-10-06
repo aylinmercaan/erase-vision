@@ -69,7 +69,7 @@ while True:
     else:
         prev_point = None
     
-    cv2.imshow("frame", sonuc)
+    cv2.imshow("EraseVision", sonuc)
     key = cv2.waitKey(1) & 0xFF
     
     if key == ord("q"):
